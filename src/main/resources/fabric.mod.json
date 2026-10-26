@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "random_slot_clear",
+  "version": "${version}",
+  "name": "Random Slot Clear",
+  "description": "Removes one item from a random non-empty player inventory slot using /randomclear.",
+  "authors": ["ChatGPT"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["jp.randomslotclear.RandomSlotClearMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
